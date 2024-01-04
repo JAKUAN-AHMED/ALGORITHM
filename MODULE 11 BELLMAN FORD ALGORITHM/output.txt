@@ -1,0 +1,6 @@
+Distance of 1: 0
+Distance of 2: 1
+Distance of 3: 3
+Distance of 4: 5
+Distance of 5: 0
+Distance of 6: 4

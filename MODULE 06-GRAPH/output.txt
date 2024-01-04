@@ -1,0 +1,13 @@
+Visiting height........
+Height of Node 1:=4
+Height of Node 2:=3
+Height of Node 3:=1
+Height of Node 4:=0
+Height of Node 5:=2
+Height of Node 6:=1
+Height of Node 7:=0
+Height of Node 8:=0
+Height of Node 9:=0
+Height of Node 10:=1
+Height of Node 11:=0
+Height of Node 12:=0

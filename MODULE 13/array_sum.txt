@@ -1,0 +1,78 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int t; cin>>t;
+    while(t--)
+    {
+        int sz; cin>>sz;
+        int k;
+        cin>>k;
+        long long int sum=0;
+       // long long int sum=(3*sz)/2;
+        vector<int>v(sz,0);
+        
+        int even=sz/2;
+        int odd=sz-even;
+          
+      for(int i=0;i<sz;i++){
+        if(i%2==0) v[i]=1;
+        else v[i]=2;
+    }   
+        
+        /* int i=0;
+       
+       while (even--)
+        {
+            v[i]=1;
+            i++;
+        }
+        while (odd--)
+        {
+            v[i]=2;
+            i++;
+        }
+       */
+     
+        for(int i=0;i<sz;i++)
+        {
+            sum+=v[i];
+        }
+        int r=k-sum;
+         if(k <sum){
+            cout<<-1<<endl;
+            continue;
+         }
+          if(r%2!=0){
+          cout<<-1<<endl;
+        continue;
+    }
+       
+   
+            
+            int d=r/sz;
+            int mod=r%sz;
+            for(int i=0;i<sz;i++)
+            {
+                v[i]+=d;
+                
+
+            }
+            for(int i=0;i<mod;i++)
+            {
+                
+                v[i]++;
+                
+            }
+           
+                for(int i=0;i<v.size();i++)
+                {
+                    cout<<v[i]<<" ";
+                }
+                
+            cout<<endl;
+           
+        
+    }
+    return 0;
+}

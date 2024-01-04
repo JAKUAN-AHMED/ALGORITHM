@@ -1,0 +1,23 @@
+HTML  Notes:
+
+tag:
+paragraph-> <p></p>
+heading-> <h></h>
+tittle-> <title> </title>
+break line-> <br>
+horizontal rule-> <hr> </hr>
+anchor(link)-> <a> </a>
+target->new tab
+pre(text same paste)-> <pre>
+<small> && <big> for caps
+
+semantic tags=
+1)body
+{
+1)header
+2)main=section and aside
+3)footer=link of different media or social media
+}
+
+navigation tags
+<nav>

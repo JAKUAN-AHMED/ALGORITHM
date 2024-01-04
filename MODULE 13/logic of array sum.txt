@@ -1,0 +1,9 @@
+take element and make array that size
+check the sum of those element is ==k or not if == then print all of this element
+else
+k/2=rs
+rs/n=one
+rs%n=two
+add 2 at one times
+and add 22 at two times again
+print this array
